@@ -1,13 +1,15 @@
 # Sample Hardhat Project
+#这是关于我的区块链学习项目 unit7
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+# npx hardhat help
+# npx hardhat test
+# REPORT_GAS=true npx hardhat test
+# npx hardhat node
+# npx hardhat run scripts/deploy.js
+yarn test //进行测试
+yarn test:staging //进行staging测试
 ```
